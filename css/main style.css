@@ -651,6 +651,7 @@ header nav .search {
 .testimonials .bullets {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .testimonials .bullets li {
     border: 1px solid var(--main-color);
@@ -743,7 +744,6 @@ header nav .search {
     font-weight: 900;
     position: absolute;
     bottom: 20px;
-    right: 363px;
     font-size: 22px;
 }
 /* end quote */
