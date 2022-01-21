@@ -107,6 +107,7 @@ header {
 }
 header .container {
     display: flex;
+    display: -webkit-flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
@@ -128,7 +129,9 @@ header .container img.logo {
 }
 header nav {
     display: flex;
+    display: -webkit-flex;
     justify-content: flex-end;
+    -webkit-justify-content: flex-end;
     align-items: center;
     flex: 1;
 }
@@ -142,6 +145,7 @@ header nav .toggle-menu {
 }
 header nav ul {
     display: flex;
+    display: -webkit-flex;
 }
 @media (max-width: 768px) {
     header nav ul {
@@ -149,6 +153,7 @@ header nav ul {
     }
     header nav .toggle-menu:hover + ul {
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
         position: absolute;
         z-index: 10;
@@ -184,6 +189,7 @@ header nav .search  {
     height: 30px;
     margin-left: 90px;
     display: flex;
+    display: -webkit-flex;
     justify-content: end;
     align-items: center;
 }
@@ -226,6 +232,7 @@ header nav .search {
     padding: 50px;
     color: white;
     display: flex;
+    display: -webkit-flex;
     justify-content: flex-end;
 }
 .landing .text .content {
@@ -282,6 +289,7 @@ header nav .search {
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    display: -webkit-flex;
 }
 .landing .bullets li {
  height: 20px;
@@ -305,6 +313,7 @@ header nav .search {
 }
 .services .services-container .srv-box {
     display: flex;
+    display: -webkit-flex;
 }
 @media (max-width: 767px) {
     .services .services-container .srv-box {
@@ -340,6 +349,7 @@ header nav .search {
     position: relative;
     overflow: hidden;
     display: flex;
+    display: -webkit-flex;
     align-items: center;
 }
 .design::before {
@@ -402,6 +412,7 @@ header nav .search {
 /* start portfolio */
 .portfolio .container .shuffle {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
 }
 .portfolio .container .shuffle li {
@@ -413,6 +424,7 @@ header nav .search {
 }
 .portfolio .imgs-container {
     display: flex;
+    display: -webkit-flex;
     flex-wrap: wrap;
     margin-top: 60px;
 }
@@ -553,6 +565,7 @@ header nav .search {
 }
 .stats .container {
     display: flex;
+    display: -webkit-flex;
     flex-wrap: wrap;
     position: relative;
 }
@@ -598,6 +611,7 @@ header nav .search {
 /* start skills */
 .skills .container {
     display: flex;
+    display: -webkit-flex;
     flex-wrap: wrap;
     justify-content: space-between
 }
@@ -621,6 +635,7 @@ header nav .search {
 }
 .testimonials .content {
     display: flex;
+    display: -webkit-flex;
     align-items: center;
     margin-bottom: 30px;
 }
@@ -650,6 +665,7 @@ header nav .search {
 }
 .testimonials .bullets {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     margin-bottom: 50px;
 }
@@ -754,6 +770,7 @@ header nav .search {
 }
 .pricing .container .plans {
     display: flex;
+    display: -webkit-flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 100px;
@@ -879,6 +896,7 @@ header nav .search {
 .subscribe .container form {
     position: relative;
     display: flex;
+    display: -webkit-flex;
 }
 .subscribe .container i {
     position: absolute;
@@ -915,6 +933,7 @@ header nav .search {
 /* start Contact */
 .contact .content {
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
 }
 .contact .content form {
@@ -934,6 +953,7 @@ header nav .search {
     }
     .contact .content .info {
         display: flex;
+    display: -webkit-flex;
         justify-content: space-evenly;
         text-align: center;
     }
